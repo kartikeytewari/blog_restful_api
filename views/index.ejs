@@ -1,0 +1,43 @@
+<%- include("partials/header") %>
+
+<div class="ui main text container">
+    <div class="ui huge header">
+        Blog
+    </div>
+
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+
+            <% for (let i=0;i<=blog.length-1;i++){ %>
+                <div class="item">
+                    <div class="image">
+                        <img src="<%= blog[i].image %>" alt="blog image"> <br>
+                    </div>
+
+                    <div class="content">
+                        <div class="header">
+                            <%= blog[i].title %>
+                        </div>
+                        <div class="meta">
+                            <span> <%= blog[i].date.toDateString() %> </span>
+                        </div>
+                        <div class="description">
+                            <p> <%- blog[i].body.substring(0,100) %>
+                                <% if (blog[i].body.length>100) { %>
+                                    ...
+                                <% } %>
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <a class="ui floated orange button" href="/blogs/<%=blog[i]._id%>">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+
+        </div>
+    </div>
+
+</div>
+
+<%- include("partials/footer") %>
