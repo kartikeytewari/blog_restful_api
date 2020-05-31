@@ -1,4 +1,4 @@
-BLOG_REST_API
+#BLOG_REST_API
 
 A web app where users can post blogs, then edit and delete them. The blog follows a RESTful Routes schema, so a scrapping utility can be made that scrapes all the data the user needs. This ensures that the information once posted on the website can be easily ported to other platforms, conveniently. This ensures that no single person have utmost authority over the data, of others just because he/she happens to have admin rights of the website. This ensures the concept of open-information in a environment of open-internet.
 
@@ -19,7 +19,7 @@ The teck stack used is:
 
 The website itself is deployed on Heroku and the backend Database is deployed on MongoDB Atlas.
 
-Instructions to run the application:
+Instructions to run the application in your local machine:
 <ol>
     <li> Go to the folder where you want to install the application. </li>
     <li> Run the command git clone https://github.com/kartikeytewari/blog_restful_api </li>
