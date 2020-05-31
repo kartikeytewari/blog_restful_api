@@ -8,6 +8,7 @@ The teck stack used is:
 <ul>
     <li> HTML </li>
     <li> CSS </li>
+    <li> EJS </li>
     <li> Semantic UI </li>
     <li> Javascript </li>
     <li> NodeJS </li>
