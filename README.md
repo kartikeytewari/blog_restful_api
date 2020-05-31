@@ -14,7 +14,7 @@ The teck stack used is:
     <li> Express </li>
     <li> MongoDB </li>
     <li> Mongoose </li>
-    <li> Git <li>
+    <li> Git </li>
 </ul>
 
 The website itself is deployed on Heroku and the backend Database is deployed on MongoDB Atlas.
