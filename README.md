@@ -4,6 +4,31 @@ A web app where users can post blogs, then edit and delete them. The blog follow
 
 <hr>
 
+The teck stack used is:
+<ul>
+    <li> HTML </li>
+    <li> CSS </li>
+    <li> Semantic UI </li>
+    <li> Javascript </li>
+    <li> NodeJS </li>
+    <li> Express </li>
+    <li> MongoDB </li>
+    <li> Mongoose </li>
+    <li> Git <li>
+</ul>
+
+The website itself is deployed on Heroku and the backend Database is deployed on MongoDB Atlas.
+
+Instructions to run the application:
+<ol>
+    <li> Go to the folder where you want to install the application. </li>
+    <li> Run the command git clone https://github.com/kartikeytewari/blog_restful_api </li>
+    <li> Install NodeJS and MongoDB if you already do not have it. </li>
+    <li> In the installed folder run the command ./mongod, to start the server </li>
+    <li> The run node server.js to start the application </li>
+    <li> Then visit localhost:Port_id to view the app </li>
+</ol>
+
 To-Do:
 <ul>
     <li> Adding user authorization middleware </li>
