@@ -1,6 +1,6 @@
 <h1>BLOG_REST_API </h1>
 
-A web app where users can post blogs, then edit and delete them. The blog follows a RESTful routing schema, so a scrapping utility can be made that scrapes all the data the user needs. This ensures that the information once posted on the website can be easily ported to other platforms, conveniently and that no single person have utmost authority over the data, of others just because he/she happens to have admin rights of the website. It follows the idea of open-information and open-source web apps.
+A web app where users can post blogs, edit and delete them. The blog follows a RESTful routing schema, so a scrapping utility can be made that scrapes all the data the user needs. This ensures that the information once posted on the website can be easily ported to other platforms, conveniently and that no single person have utmost authority over the data, of others just because he/she happens to have admin rights of the website. It follows the idea of open-information in a world of open-source web apps.
 
 <hr>
 
@@ -24,9 +24,9 @@ Instructions to run the application in your local machine:
 <ol>
     <li> Go to the folder where you want to install the application. </li>
     <li> Run the command git clone https://github.com/kartikeytewari/blog_restful_api </li>
-    <li> Install NodeJS and MongoDB if you already do not have it. </li>
-    <li> In the installed folder run the command ./mongod, to start the server </li>
-    <li> The run node server.js to start the application </li>
+    <li> Install NodeJS and MongoDB if you do not have it. </li>
+    <li> In the installed folder run the command sudo service mongodb start, as a user with root privileges to start the server </li>
+    <li> Then run node server.js to start the application </li>
     <li> Then visit localhost:Port_id to view the app </li>
 </ol>
 
