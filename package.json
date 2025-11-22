@@ -15,6 +15,6 @@
     "express": "^5.1.0",
     "express-sanitizer": "^1.0.5",
     "method-override": "^3.0.0",
-    "mongoose": "^8.0.0"
+    "mongoose": "^9.0.0"
   }
 }
